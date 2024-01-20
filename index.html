@@ -53,7 +53,7 @@
                     <li><a>Contact</a></li>
                 </ul>
                 </div>
-                <a class="btn btn-ghost text-4xl font-bold">Biker Zone</a>
+                <a class="btn btn-ghost text-3xl lg:text-4xl font-bold">Biker Zone</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal text-base font-medium px-1">
@@ -70,8 +70,8 @@
       </nav>
       <div class="carousel w-full lg:h-[550px] bg-header-bg">
         <!-- first bike  -->
-        <div id="slide1" class="carousel-item relative w-full">
-            <div class="flex flex-col p-5 gap-4 lg:flex-row lg:p-24 lg:gap-10 ">
+        <div id="slide1" class="carousel-item m-auto relative w-full">
+            <div class="flex flex-col p-5 gap-4 lg:flex-row lg:p-24 lg:gap-10 w-full">
                 <div class="space-y-3 lg:space-y-7 flex-1">
                     <h3 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4<br>with Smile</h3>
                     <p class="text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -86,8 +86,8 @@
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div> 
-        <div id="slide2" class="carousel-item relative w-full">
-            <div class="flex flex-col p-5 gap-4 lg:flex-row lg:p-24 lg:gap-10 ">
+        <div id="slide2" class="carousel-item m-auto relative w-full">
+            <div class="flex flex-col p-5 gap-4 lg:flex-row lg:p-24 lg:gap-10 w-full">
                 <div class="space-y-3 lg:space-y-7 flex-1">
                     <h3 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4<br>with Smile</h3>
                     <p class="text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -102,8 +102,8 @@
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div> 
-        <div id="slide3" class="carousel-item relative w-full">
-            <div class="flex flex-col p-5 gap-4 lg:flex-row lg:p-24 lg:gap-10 ">
+        <div id="slide3" class="carousel-item m-auto relative w-full">
+            <div class="flex flex-col p-5 gap-4 lg:flex-row lg:p-24 lg:gap-10 w-full">
                 <div class="space-y-3 lg:space-y-7 flex-1">
                     <h3 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4<br>with Smile</h3>
                     <p class="text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -118,8 +118,8 @@
             <a href="#slide4" class="btn btn-circle">❯</a>
           </div>
         </div> 
-        <div id="slide4" class="carousel-item relative w-full">
-            <div class="flex flex-col p-5 gap-4 lg:flex-row lg:p-24 lg:gap-10 ">
+        <div id="slide4" class="carousel-item m-auto relative w-full">
+            <div class="flex flex-col p-5 gap-4 lg:flex-row lg:p-24 lg:gap-10 w-full">
                 <div class="space-y-3 lg:space-y-7 flex-1">
                     <h3 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4<br>with Smile</h3>
                     <p class="text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -138,9 +138,13 @@
     </header>
     <main>
       <!-- featured bike  -->
-      <section class="font-poppins my-10 lg:my-24 space-y-8 lg:space-y-16">
+      <section class="font-poppins my-10 lg:my-24">
         <h3 class="text-2xl lg:text-5xl font-semibold text-center">Featured Bikes In This Year</h3>
-        <div class="flex flex-col lg:flex-row gap-5 lg:justify-around items-center">
+        <div class="flex flex-col justify-center items-center">
+          <h4 class="font-semibold text-bike-primary text-center mt-3">Best bike collection</h4>
+          <hr class="border-bike-primary w-14">
+        </div>
+        <div class="flex flex-wrap gap-5 justify-around items-center mt-8 lg:mt-20">
             <div><img src="./images/others/feature-bike.png" alt=""></div>
             <div><img src="./images/others/feature-bike.png" alt=""></div>
             <div><img src="./images/others/feature-bike.png" alt=""></div>
@@ -153,7 +157,7 @@
             <div class="card max-w-96 pt-5 card-compact bg-base-100 drop-shadow">
                 <figure class=""><img class="" src="./images/others/latest1.png" alt="Shoes" /></figure>
                 <div class="card-body">
-                  <h2 class="card-title mt-6 text-gray-900 text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
+                  <h2 class="card-title mt-6 text-gray-900 text-2xl lg:text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
                   <p class="text-base text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                   <div class="card-actions mt-6 justify-start">
                     <button class="btn btn-error text-white px-5 lg:px-9 py-2 bg-bike-primary text-base lg:text-xl font-semibold">Purchase</button>
@@ -163,7 +167,7 @@
             <div class="card pt-5 max-w-96 card-compact bg-base-100 drop-shadow">
                 <figure class=""><img class="" src="./images/others/latest2.png" alt="Shoes" /></figure>
                 <div class="card-body">
-                  <h2 class="card-title mt-6 text-gray-900 text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
+                  <h2 class="card-title mt-6 text-gray-900 text-2xl lg:text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
                   <p class="text-base text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                   <div class="card-actions mt-6 justify-start">
                     <button class="btn btn-error text-white px-5 lg:px-9 py-2 bg-bike-primary text-base lg:text-xl font-semibold">Purchase</button>
@@ -173,7 +177,7 @@
             <div class="card pt-5 max-w-96 card-compact bg-base-100 drop-shadow">
                 <figure class=""><img class="" src="./images/others/latest3.png" alt="Shoes" /></figure>
                 <div class="card-body">
-                  <h2 class="card-title mt-6 text-gray-900 text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
+                  <h2 class="card-title mt-6 text-gray-900 text-2xl lg:text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
                   <p class="text-base text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                   <div class="card-actions mt-6 justify-start">
                     <button class="btn btn-error text-white px-5 lg:px-9 py-2 bg-bike-primary text-base lg:text-xl font-semibold">Purchase</button>
@@ -299,7 +303,7 @@
       </section>
 
     </main>
-    <footer class="font-manrope py:10 px-10 lg:py-14 lg:px-40 bg-black">
+    <footer class="font-manrope py-10 px-10 lg:py-14 lg:px-40 bg-black">
       <div class="flex flex-col lg:flex-row lg:justify-between">
         <div class="space-y-6 text-white text-base">
           <div class="space-x-6">
